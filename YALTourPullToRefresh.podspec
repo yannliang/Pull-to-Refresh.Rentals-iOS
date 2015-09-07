@@ -28,6 +28,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/yannliang/Pull-to-Refresh.Rentals-iOS.git", :tag => s.version.to_s }
 
-  s.source_files  = "YALTourPullToRefresh/YALSunnyRefreshControll"
+  s.source_files = "YALTourPullToRefresh/YALSunnyRefreshControll"
+
+  s.resource     = "YALTourPullToRefresh/YALSunnyRefreshControll/YALSunnyRefreshControl.xib"
+
   s.requires_arc = true
 end
