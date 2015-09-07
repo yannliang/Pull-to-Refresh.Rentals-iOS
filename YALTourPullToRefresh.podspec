@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "YALTourPullToRefresh"
   s.version      = "1.0"
-  s.summary      = "A short description of YALTourPullToRefresh."
+  s.summary      = "Tour theme pull to refresh"
 
   s.description  = <<-DESC
                    A tour theme pull to refresh originated by Yalantis.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/Yalantis/Pull-to-Refresh.Rentals-iOS"
 
-  s.license      = { :type => "Apache License, Version 2.0", :file => "https://raw.githubusercontent.com/Yalantis/Pull-to-Refresh.Rentals-iOS/master/LICENSE" }
+  s.license      = "Apache License, Version 2.0"
 
   s.author             = "Yalantis"
   s.social_media_url   = "https://github.com/edBaev"
